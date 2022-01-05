@@ -20,7 +20,7 @@ h1 {
     border-radius: 5px;
     display: inline-block;
 }
-section {
+.flexible-container {
     display: flex;
     padding: 0px 60px;
 }
@@ -32,12 +32,25 @@ section {
     width: 80%;
 }
 .experience-area .half-width {
-    padding: 20px;
-    box-shadow: 0px 12px 20px -10px #333;
-    border-left: 2px solid red;
+    padding: 30px;
+    width: 40%;
+    margin: 3%;
+}
+#web-dev-experience {
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(rgb(252, 196, 93), orange) 30;
+    box-shadow: 10px 10px 60px gray;
+}
+#baby-dev-experience {
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(blue, cyan) 30;
+    box-shadow: 10px 10px 60px gray;
 }
 .experience-area h2 {
     font-size: 42px;
+    margin: 0;
 }
 .experience-area h3 {
     color: orange;
